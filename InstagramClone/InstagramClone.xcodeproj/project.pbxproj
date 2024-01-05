@@ -14,6 +14,8 @@
 		AC639FDF2B4869E00097BA6E /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FDE2B4869E00097BA6E /* MainTabView.swift */; };
 		AC639FE12B486B700097BA6E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FE02B486B700097BA6E /* ProfileView.swift */; };
 		AC639FE42B4871D70097BA6E /* UserStartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FE32B4871D70097BA6E /* UserStartView.swift */; };
+		AC639FE62B4879CC0097BA6E /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FE52B4879CC0097BA6E /* FeedView.swift */; };
+		AC639FE82B4879D40097BA6E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FE72B4879D40097BA6E /* FeedCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		AC639FDE2B4869E00097BA6E /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		AC639FE02B486B700097BA6E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		AC639FE32B4871D70097BA6E /* UserStartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStartView.swift; sourceTree = "<group>"; };
+		AC639FE52B4879CC0097BA6E /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		AC639FE72B4879D40097BA6E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +137,8 @@
 		AC639FD82B48688B0097BA6E /* Feed */ = {
 			isa = PBXGroup;
 			children = (
+				AC639FE52B4879CC0097BA6E /* FeedView.swift */,
+				AC639FE72B4879D40097BA6E /* FeedCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -252,10 +258,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC639FE82B4879D40097BA6E /* FeedCell.swift in Sources */,
 				AC639FE12B486B700097BA6E /* ProfileView.swift in Sources */,
 				AC639FE42B4871D70097BA6E /* UserStartView.swift in Sources */,
 				AC639FC62B484FBF0097BA6E /* ContentView.swift in Sources */,
 				AC639FC42B484FBF0097BA6E /* InstagramCloneApp.swift in Sources */,
+				AC639FE62B4879CC0097BA6E /* FeedView.swift in Sources */,
 				AC639FDF2B4869E00097BA6E /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
