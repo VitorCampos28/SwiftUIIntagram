@@ -18,6 +18,15 @@
 		AC639FE82B4879D40097BA6E /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FE72B4879D40097BA6E /* FeedCell.swift */; };
 		AC639FEA2B488D610097BA6E /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FE92B488D610097BA6E /* SearchView.swift */; };
 		AC639FEC2B4890850097BA6E /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC639FEB2B4890850097BA6E /* LoginView.swift */; };
+		ACF100512B4B19DF000B5FD0 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF100502B4B19DF000B5FD0 /* AddEmailView.swift */; };
+		ACF100572B4B20F3000B5FD0 /* CreateUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF100562B4B20F3000B5FD0 /* CreateUserNameView.swift */; };
+		ACF100592B4B2170000B5FD0 /* CreateAccountForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF100582B4B2170000B5FD0 /* CreateAccountForm.swift */; };
+		ACF1005B2B4B222A000B5FD0 /* CreateAccountFormModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1005A2B4B222A000B5FD0 /* CreateAccountFormModel.swift */; };
+		ACF100642B4B3048000B5FD0 /* AccountFormTitleAndSubTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF100632B4B3048000B5FD0 /* AccountFormTitleAndSubTitle.swift */; };
+		ACF1006C2B4B32C4000B5FD0 /* LoginButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1006B2B4B32C4000B5FD0 /* LoginButtonModifier.swift */; };
+		ACF1006E2B4B364C000B5FD0 /* LoginTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1006D2B4B364C000B5FD0 /* LoginTextFieldModifier.swift */; };
+		ACF100722B4B38E9000B5FD0 /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF100712B4B38E9000B5FD0 /* PasswordView.swift */; };
+		ACF100742B4B3B0E000B5FD0 /* CompleteSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF100732B4B3B0E000B5FD0 /* CompleteSignUpView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +43,15 @@
 		AC639FE72B4879D40097BA6E /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		AC639FE92B488D610097BA6E /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		AC639FEB2B4890850097BA6E /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		ACF100502B4B19DF000B5FD0 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
+		ACF100562B4B20F3000B5FD0 /* CreateUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameView.swift; sourceTree = "<group>"; };
+		ACF100582B4B2170000B5FD0 /* CreateAccountForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountForm.swift; sourceTree = "<group>"; };
+		ACF1005A2B4B222A000B5FD0 /* CreateAccountFormModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountFormModel.swift; sourceTree = "<group>"; };
+		ACF100632B4B3048000B5FD0 /* AccountFormTitleAndSubTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountFormTitleAndSubTitle.swift; sourceTree = "<group>"; };
+		ACF1006B2B4B32C4000B5FD0 /* LoginButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonModifier.swift; sourceTree = "<group>"; };
+		ACF1006D2B4B364C000B5FD0 /* LoginTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldModifier.swift; sourceTree = "<group>"; };
+		ACF100712B4B38E9000B5FD0 /* PasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
+		ACF100732B4B3B0E000B5FD0 /* CompleteSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignUpView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +115,7 @@
 		AC639FD32B48540C0097BA6E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACF1005A2B4B222A000B5FD0 /* CreateAccountFormModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,7 +153,11 @@
 		AC639FD72B4868810097BA6E /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				ACF100502B4B19DF000B5FD0 /* AddEmailView.swift */,
+				ACF100562B4B20F3000B5FD0 /* CreateUserNameView.swift */,
 				AC639FEB2B4890850097BA6E /* LoginView.swift */,
+				ACF100712B4B38E9000B5FD0 /* PasswordView.swift */,
+				ACF100732B4B3B0E000B5FD0 /* CompleteSignUpView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -189,9 +212,29 @@
 		AC639FE22B4871BB0097BA6E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				ACF1005E2B4B2FA0000B5FD0 /* CreateAccountForm */,
+				ACF1006A2B4B3296000B5FD0 /* Modifiers */,
 				AC639FE32B4871D70097BA6E /* UserStartView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		ACF1005E2B4B2FA0000B5FD0 /* CreateAccountForm */ = {
+			isa = PBXGroup;
+			children = (
+				ACF100582B4B2170000B5FD0 /* CreateAccountForm.swift */,
+				ACF100632B4B3048000B5FD0 /* AccountFormTitleAndSubTitle.swift */,
+			);
+			path = CreateAccountForm;
+			sourceTree = "<group>";
+		};
+		ACF1006A2B4B3296000B5FD0 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				ACF1006B2B4B32C4000B5FD0 /* LoginButtonModifier.swift */,
+				ACF1006D2B4B364C000B5FD0 /* LoginTextFieldModifier.swift */,
+			);
+			path = Modifiers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,12 +308,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC639FE82B4879D40097BA6E /* FeedCell.swift in Sources */,
+				ACF100742B4B3B0E000B5FD0 /* CompleteSignUpView.swift in Sources */,
+				ACF100722B4B38E9000B5FD0 /* PasswordView.swift in Sources */,
+				ACF100592B4B2170000B5FD0 /* CreateAccountForm.swift in Sources */,
 				AC639FE12B486B700097BA6E /* ProfileView.swift in Sources */,
+				ACF100572B4B20F3000B5FD0 /* CreateUserNameView.swift in Sources */,
 				AC639FE42B4871D70097BA6E /* UserStartView.swift in Sources */,
+				ACF1005B2B4B222A000B5FD0 /* CreateAccountFormModel.swift in Sources */,
 				AC639FEC2B4890850097BA6E /* LoginView.swift in Sources */,
 				AC639FC62B484FBF0097BA6E /* ContentView.swift in Sources */,
+				ACF100512B4B19DF000B5FD0 /* AddEmailView.swift in Sources */,
 				AC639FEA2B488D610097BA6E /* SearchView.swift in Sources */,
+				ACF1006C2B4B32C4000B5FD0 /* LoginButtonModifier.swift in Sources */,
+				ACF100642B4B3048000B5FD0 /* AccountFormTitleAndSubTitle.swift in Sources */,
 				AC639FC42B484FBF0097BA6E /* InstagramCloneApp.swift in Sources */,
+				ACF1006E2B4B364C000B5FD0 /* LoginTextFieldModifier.swift in Sources */,
 				AC639FE62B4879CC0097BA6E /* FeedView.swift in Sources */,
 				AC639FDF2B4869E00097BA6E /* MainTabView.swift in Sources */,
 			);

@@ -24,18 +24,10 @@ struct LoginView: View {
                 VStack(content: {
                     TextField("Enter your email", text: $email)
                         .textInputAutocapitalization(.none)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .padding(.horizontal, 24)
+                        .modifier(LoginTextFieldModifier())
                     
                     TextField("Enter your password", text: $password)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .padding(.horizontal, 24)
+                        .modifier(LoginTextFieldModifier())
                 })
                 
                 Button(action: {
@@ -53,13 +45,7 @@ struct LoginView: View {
                     print("Login")
                 }, label: {
                     Text("Login")
-                        .font(.footnote)
-                        .fontWeight(.semibold)
-                        .foregroundStyle(.white)
-                        .frame(width: 360, height: 44)
-                        .background(Color(.systemBlue))
-                        .clipShape(RoundedRectangle(cornerRadius: 10))
-                        .padding(.vertical)
+                        .modifier(LoginButtonModifier())
                 })
                 
                 HStack(content: {
@@ -92,7 +78,8 @@ struct LoginView: View {
                 Divider()
                 
                 NavigationLink {
-                    Text("Sign Up")
+                    AddEmailView()
+                        .navigationBarBackButtonHidden()
                 } label: {
                     HStack(content: {
                         Text("Don`t have an account?")
